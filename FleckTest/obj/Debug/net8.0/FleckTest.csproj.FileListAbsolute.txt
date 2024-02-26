@@ -39,3 +39,4 @@ C:\Users\nhi_t\RiderProjects\FleckTest\FleckTest\obj\Debug\net8.0\refint\FleckTe
 C:\Users\nhi_t\RiderProjects\FleckTest\FleckTest\obj\Debug\net8.0\FleckTest.pdb
 C:\Users\nhi_t\RiderProjects\FleckTest\FleckTest\obj\Debug\net8.0\FleckTest.genruntimeconfig.cache
 C:\Users\nhi_t\RiderProjects\FleckTest\FleckTest\obj\Debug\net8.0\ref\FleckTest.dll
+C:\Users\nhi_t\RiderProjects\FleckTest\FleckTest\obj\Debug\net8.0\FleckTest.sourcelink.json
