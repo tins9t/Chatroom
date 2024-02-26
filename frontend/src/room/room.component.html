@@ -1,0 +1,19 @@
+<div class="chat-box">
+  <h1> C(h)at Room {{ getRoomId() }}</h1>
+
+  <div> {{ messages }} </div>
+
+
+  <div *ngFor="let m of getMessages()" class="chat-container">
+    <img src="https://i.pinimg.com/originals/81/2e/7e/812e7e9c8f8686c4ebd4f98f477e46de.jpg" alt="Avatar" class="avatar">
+    <div class="chat-bubble">
+      <div class="username">{{ m.username }}</div>
+      <p class="message-content">{{ m.message }}</p>
+    </div>
+  </div>
+
+  <div class="cat-field">
+    <input class="cat-input-field" [formControl]="messagesContent"> <img class="paw-button" src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/19456/cat-s-paw-clipart-md.png" (click)="sendMessage()" alt="cat-paw">
+  </div>
+</div>
+

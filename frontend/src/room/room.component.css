@@ -1,0 +1,59 @@
+﻿.chat-container {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-bubble {
+  max-width: 60%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message-content {
+  margin: 0;
+}
+
+.chat-box{
+  height: 550px;
+  width: 400px;
+  background-image: url('https://img.myloview.com/posters/seamless-pattern-kawaii-cute-cats-sleeping-cartoon-animals-background-vector-illustration-good-night-collection-700-284668479.jpg');
+}
+
+.paw-button{
+  cursor: pointer;
+  margin-left: 20px;
+  margin-bottom: -5px;
+  height: 20px;
+  width: 20px;
+}
+
+.cat-input-field{
+  margin-top: 400px;
+  margin-left: 100px;
+}
+
+.cat-field{
+}
+
+h1{
+  margin-left: 100px;
+  font-family: Garamond, serif;
+}
+
+
